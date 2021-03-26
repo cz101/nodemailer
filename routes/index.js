@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
   
     //res.send("here it is")
 
-  res.render("home")
+  res.render("index")
  //  res.render("welcome")
    //res.render( { title: 'Welcome', layout: '../views/layouts/welcome' })
 
