@@ -6,7 +6,8 @@ const nodemailer = require("nodemailer");
 const multiparty = require("multiparty");
 
 require("dotenv").config();
-require("jsdom").jsdom;
+
+
 
 const expressLayout = require('express-ejs-layouts')
 const indexRouter = require('./routes/index')
