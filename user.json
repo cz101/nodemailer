@@ -1,0 +1,1210 @@
+{
+    "GoodreadsResponse": {
+        "Request": {
+            "authentication": {
+                "_text": "true"
+            },
+            "key": {
+                "_cdata": " qG4h3DZZk8h8kOq8GmtJQ "
+            },
+            "method": {
+                "_cdata": " author_show "
+            }
+        },
+        "author": {
+            "id": {
+                "_text": "2996"
+            },
+            "name": {
+                "_text": "Michael Herr"
+            },
+            "link": {
+                "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+            },
+            "fans_count": {
+                "_attributes": {
+                    "type": "integer"
+                },
+                "_text": "104"
+            },
+            "author_followers_count": {
+                "_attributes": {
+                    "type": "integer"
+                },
+                "_text": "104"
+            },
+            "large_image_url": {
+                "_cdata": " https://images.gr-assets.com/authors/1559429841p7/2996.jpg "
+            },
+            "image_url": {
+                "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+            },
+            "small_image_url": {
+                "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+            },
+            "about": {
+                "_cdata": " Michael Herr was a novelist and war correspondent. Born in Lexington, Kentucky in 1940, he began reporting from Vietnam for <i>Esquire</i> in the 1960s, during the height of the war. He later chronicled those experiences in his memoir, <i>Dispatches</i>. He is the author of three other books, <i>The Big Room</i>, <i>Walter Winchell</i>, and <i>Kubrick</i>, and coauthor of the screenplays for <i>Apocalypse Now</i> and <i>Full Metal Jacket</i>. Herr later contributed to the narration sections of Best Picture Oscar nominee <i>Apocalypse Now</i> (1979) and co-wrote the screenplay for <i>Full Metal Jacket</i> (1987), for which Herr shared an adapted screenplay Oscar nomination with Stanley Kubrick and Gustav Hasford.He died in 2016 at the age of 76.<br /> "
+            },
+            "influences": {},
+            "works_count": {
+                "_text": "10"
+            },
+            "gender": {},
+            "hometown": {
+                "_text": "Lexington, Kentucky"
+            },
+            "born_at": {
+                "_text": "1940/04/13"
+            },
+            "died_at": {
+                "_text": "2016/06/23"
+            },
+            "goodreads_author": {},
+            "books": {
+                "book": [
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "4339"
+                        },
+                        "isbn": {
+                            "_text": "0679735259"
+                        },
+                        "isbn13": {
+                            "_text": "9780679735250"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "824"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.euP2j1JymfzEO2GuI_7BMg"
+                        },
+                        "title": {
+                            "_text": "Dispatches"
+                        },
+                        "title_without_series": {
+                            "_text": "Dispatches"
+                        },
+                        "image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343099128l/4339._SX98_.jpg"
+                        },
+                        "small_image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343099128l/4339._SY75_.jpg"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/4339.Dispatches"
+                        },
+                        "num_pages": {
+                            "_text": "260"
+                        },
+                        "format": {
+                            "_text": "Paperback"
+                        },
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Vintage"
+                        },
+                        "publication_day": {
+                            "_text": "6"
+                        },
+                        "publication_year": {
+                            "_text": "1991"
+                        },
+                        "publication_month": {
+                            "_text": "8"
+                        },
+                        "average_rating": {
+                            "_text": "4.24"
+                        },
+                        "ratings_count": {
+                            "_text": "15774"
+                        },
+                        "description": {
+                            "_text": [
+                                "Written on the front lines in Vietnam, ",
+                                " became an immediate classic of war reportage when it was published in 1977.",
+                                "From its terrifying opening pages to its final eloquent words, ",
+                                " makes us see, in unforgettable and unflinching detail, the chaos and fervor of the war and the surreal insanity of life in that singular combat zone. Michael Herr’s unsparing, unorthodox retellings of the day-to-day events in Vietnam take on the force of poetry, rendering clarity from one of the most incomprehensible and nightmarish events of our time.",
+                                " is among the most blistering and compassionate accounts of war in our literature."
+                            ],
+                            "i": [
+                                {
+                                    "_text": "Dispatches"
+                                },
+                                {
+                                    "_text": "Dispatches"
+                                },
+                                {
+                                    "_text": "Dispatches"
+                                }
+                            ],
+                            "br": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2996"
+                                },
+                                "name": {
+                                    "_text": "Michael Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "4.21"
+                                },
+                                "ratings_count": {
+                                    "_text": "16817"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1117"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "1991"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "8018"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.Qhsn1Fmi4OZZQ1SID5-YLA"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "536360"
+                        },
+                        "isbn": {
+                            "_text": "0802116701"
+                        },
+                        "isbn13": {
+                            "_text": "9780802116703"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "31"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.d747HN0hFYdkSIHe8GDa5w"
+                        },
+                        "title": {
+                            "_text": "Kubrick"
+                        },
+                        "title_without_series": {
+                            "_text": "Kubrick"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/536360.Kubrick"
+                        },
+                        "num_pages": {
+                            "_text": "96"
+                        },
+                        "format": {
+                            "_text": "Hardcover"
+                        },
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Grove/Atlantic"
+                        },
+                        "publication_day": {
+                            "_text": "1"
+                        },
+                        "publication_year": {
+                            "_text": "2000"
+                        },
+                        "publication_month": {
+                            "_text": "6"
+                        },
+                        "average_rating": {
+                            "_text": "3.84"
+                        },
+                        "ratings_count": {
+                            "_text": "429"
+                        },
+                        "description": {
+                            "_text": "Kubrick is Michael Herr's memoir of his nearly twenty-year friendship and collaboration with Stanley Kubrick, one of the greatest filmmakers of all time and the creator of such classics as Dr. Strangelove, 2001: A Space Odyssey, and A Clockwork Orange. From their first meeting at an advance screening of The Shining in 1980, Kubrick and Herr began an intense intellectual exchange that grew into the artistic collaboration that ultimately produced the groundbreaking Vietnam film Full Metal Jacket.Filled with personal insights and previously untold anecdotes, Kubrick is a probing view into the inner life of a man whose creative passion and powerful intellect changed the art of filmmaking forever -- and of the complicated, often misunderstood man behind the art."
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2996"
+                                },
+                                "name": {
+                                    "_text": "Michael Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "4.21"
+                                },
+                                "ratings_count": {
+                                    "_text": "16817"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1117"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "2000"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "1012170"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.bevKlwaDQwGSYet_HQ5vzA"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "566179"
+                        },
+                        "isbn": {
+                            "_text": "0679733930"
+                        },
+                        "isbn13": {
+                            "_text": "9780679733935"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "4"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.sGot30Wr1SxidXUwfv8vkg"
+                        },
+                        "title": {
+                            "_text": "Walter Winchell: A Novel"
+                        },
+                        "title_without_series": {
+                            "_text": "Walter Winchell: A Novel"
+                        },
+                        "image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420940721l/566179._SX98_.jpg"
+                        },
+                        "small_image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420940721l/566179._SY75_.jpg"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/566179.Walter_Winchell"
+                        },
+                        "num_pages": {
+                            "_text": "157"
+                        },
+                        "format": {
+                            "_text": "Paperback"
+                        },
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Vintage"
+                        },
+                        "publication_day": {
+                            "_text": "6"
+                        },
+                        "publication_year": {
+                            "_text": "1991"
+                        },
+                        "publication_month": {
+                            "_text": "8"
+                        },
+                        "average_rating": {
+                            "_text": "3.13"
+                        },
+                        "ratings_count": {
+                            "_text": "53"
+                        },
+                        "description": {
+                            "_text": "A streamlined hybrid of novel and screenplay, Walter Winchell tells the story of the failed vaudevillian who became this country's most influential gossip columnist and wizard of the vicarious. Brilliant . . . full of punchy dialogue, colorful people and places and period movie devices . . . Herr's hybrid is perfect.--Chicago Tribune."
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2996"
+                                },
+                                "name": {
+                                    "_text": "Michael Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "4.21"
+                                },
+                                "ratings_count": {
+                                    "_text": "16817"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1117"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "1991"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "553285"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.58qe7F8X5GhBknX2oV5C2w"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "35960490"
+                        },
+                        "isbn": {
+                            "_attributes": {
+                                "nil": "true"
+                            }
+                        },
+                        "isbn13": {
+                            "_attributes": {
+                                "nil": "true"
+                            }
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "2"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.R-L4VLOSt4QdxJ1vtjNq5g"
+                        },
+                        "title": {
+                            "_text": "Illumination Rounds: from Dispatches"
+                        },
+                        "title_without_series": {
+                            "_text": "Illumination Rounds: from Dispatches"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/35960490-illumination-rounds"
+                        },
+                        "num_pages": {},
+                        "format": {},
+                        "edition_information": {},
+                        "publisher": {},
+                        "publication_day": {},
+                        "publication_year": {},
+                        "publication_month": {},
+                        "average_rating": {
+                            "_text": "3.67"
+                        },
+                        "ratings_count": {
+                            "_text": "3"
+                        },
+                        "description": {},
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2996"
+                                },
+                                "name": {
+                                    "_text": "Michael Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "4.21"
+                                },
+                                "ratings_count": {
+                                    "_text": "16817"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1117"
+                                }
+                            }
+                        },
+                        "published": {},
+                        "work": {
+                            "id": {
+                                "_text": "57518759"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.yoKGPdYyk4aJ8UW9fm8NfQ"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "1386767"
+                        },
+                        "isbn": {
+                            "_text": "0671630288"
+                        },
+                        "isbn13": {
+                            "_text": "9780671630287"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "1"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.KrVNJEjQT459xWlUIggQ3A"
+                        },
+                        "title": {
+                            "_text": "The Big Room"
+                        },
+                        "title_without_series": {
+                            "_text": "The Big Room"
+                        },
+                        "image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420940791l/1386767._SX98_.jpg"
+                        },
+                        "small_image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420940791l/1386767._SX50_.jpg"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/1386767.The_Big_Room"
+                        },
+                        "num_pages": {
+                            "_text": "143"
+                        },
+                        "format": {
+                            "_text": "Unknown Binding"
+                        },
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Summit Books"
+                        },
+                        "publication_day": {
+                            "_text": "1"
+                        },
+                        "publication_year": {
+                            "_text": "1986"
+                        },
+                        "publication_month": {
+                            "_text": "1"
+                        },
+                        "average_rating": {
+                            "_text": "3.50"
+                        },
+                        "ratings_count": {
+                            "_text": "4"
+                        },
+                        "description": {},
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "219810"
+                                },
+                                "name": {
+                                    "_text": "Guy Peellaert"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1361382911p5/219810.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1361382911p2/219810.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/219810.Guy_Peellaert "
+                                },
+                                "average_rating": {
+                                    "_text": "4.09"
+                                },
+                                "ratings_count": {
+                                    "_text": "188"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "21"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "1986"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "9908284"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.I8AkH2ajN_C1B0ZDFSbBqA"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "48721663"
+                        },
+                        "isbn": {
+                            "_text": "881708946X"
+                        },
+                        "isbn13": {
+                            "_text": "9788817089463"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "0"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v3.9KseHo1IaBsfzBHZ"
+                        },
+                        "title": {
+                            "_text": "Dispacci. L'orrore del Vietnam. Negli occhi dei soldati americani"
+                        },
+                        "title_without_series": {
+                            "_text": "Dispacci. L'orrore del Vietnam. Negli occhi dei soldati americani"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/48721663-dispacci-l-orrore-del-vietnam-negli-occhi-dei-soldati-americani"
+                        },
+                        "num_pages": {},
+                        "format": {},
+                        "edition_information": {},
+                        "publisher": {},
+                        "publication_day": {},
+                        "publication_year": {},
+                        "publication_month": {},
+                        "average_rating": {
+                            "_text": "0.0"
+                        },
+                        "ratings_count": {
+                            "_text": "0"
+                        },
+                        "description": {},
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2996"
+                                },
+                                "name": {
+                                    "_text": "Michael Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p5/2996.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1559429841p2/2996.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2996.Michael_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "4.21"
+                                },
+                                "ratings_count": {
+                                    "_text": "16817"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1117"
+                                }
+                            }
+                        },
+                        "published": {},
+                        "work": {
+                            "id": {
+                                "_text": "74079002"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v2.4ea1f8e9-a028-4bd6-904d-234effdfc18c"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "36059626"
+                        },
+                        "isbn": {
+                            "_attributes": {
+                                "nil": "true"
+                            }
+                        },
+                        "isbn13": {
+                            "_attributes": {
+                                "nil": "true"
+                            }
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "0"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.oBHM7eIFV3gGZ6Bz-Ndh8w"
+                        },
+                        "title": {
+                            "_text": "The Old Queen's Deadly Cruise: A Kohala Coast Mystery/Thriller"
+                        },
+                        "title_without_series": {
+                            "_text": "The Old Queen's Deadly Cruise: A Kohala Coast Mystery/Thriller"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/36059626-the-old-queen-s-deadly-cruise"
+                        },
+                        "num_pages": {},
+                        "format": {},
+                        "edition_information": {},
+                        "publisher": {},
+                        "publication_day": {},
+                        "publication_year": {},
+                        "publication_month": {},
+                        "average_rating": {
+                            "_text": "5.00"
+                        },
+                        "ratings_count": {
+                            "_text": "2"
+                        },
+                        "description": {},
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "421773"
+                                },
+                                "name": {
+                                    "_text": "Michael A. Herr"
+                                },
+                                "role": {},
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1263456260p5/421773.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1263456260p2/421773.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/421773.Michael_A_Herr "
+                                },
+                                "average_rating": {
+                                    "_text": "3.79"
+                                },
+                                "ratings_count": {
+                                    "_text": "178"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "20"
+                                }
+                            }
+                        },
+                        "published": {},
+                        "work": {
+                            "id": {
+                                "_text": "57638630"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.PYcyOpXAmWb5z9khTCwFoA"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "341283"
+                        },
+                        "isbn": {
+                            "_text": "0142001945"
+                        },
+                        "isbn13": {
+                            "_text": "9780142001943"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "26"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.0Bs6cmm5SmLWVmohA4yptg"
+                        },
+                        "title": {
+                            "_text": "The Portable Sixties Reader"
+                        },
+                        "title_without_series": {
+                            "_text": "The Portable Sixties Reader"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/341283.The_Portable_Sixties_Reader"
+                        },
+                        "num_pages": {
+                            "_text": "628"
+                        },
+                        "format": {
+                            "_text": "Paperback"
+                        },
+                        "edition_information": {
+                            "_text": "The Viking Portable Library"
+                        },
+                        "publisher": {
+                            "_text": "Penguin Classics"
+                        },
+                        "publication_day": {},
+                        "publication_year": {
+                            "_text": "2003"
+                        },
+                        "publication_month": {},
+                        "average_rating": {
+                            "_text": "3.92"
+                        },
+                        "ratings_count": {
+                            "_text": "297"
+                        },
+                        "description": {
+                            "b": {
+                                "i": {
+                                    "_text": "A literary time capsule from the decade that changed the world"
+                                }
+                            },
+                            "br": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ],
+                            "_text": [
+                                "From civil rights to free love, JFK to LSD, Woodstock to the Moonwalk, the Sixties was a time of change, political unrest, and radical experiments in the arts, sexuality, and personal identity. In this anthology of essays, poetry, and fiction by some of America's most gifted writers, renowned sixties authority Ann Charters sketches the unfolding of this most turbulent decade. Organized by thematically linked chapters chronicling important social, political, and cultural movements, ",
+                                " features such luminaries as Martin Luther King, Jr., James Baldwin, Alice Walker, Robert Lowell, Eudora Welty, Bob Dylan, Malcolm X, Susan Sontag, Denise Levertov, Norman Mailer, Allen Ginsberg, Hunter Thompson, William S. Burroughs, Timothy Leary, Ken Kesey, Lenny Bruce, Ishmael Reed, Sylvia Plath, Anne Sexton, Rachel Carson, and Gary Snyder. The concluding chapter, \"Elegies for the Sixties,\" offers tributes to ten figures whose lives--and deaths--captured the spirit of the decade.",
+                                "Cover photograph by Herbert Orth/TimePix.",
+                                ":"
+                            ],
+                            "i": [
+                                {
+                                    "_text": "The Portable Sixties Reader"
+                                },
+                                {
+                                    "_text": "Norman Mailer, Dave Mandel, Peter Matthiessen, Michael McClure, Country Joe McDonald, Thomas Merton, Kate Millett, Janice Mirikitani, N. Scott Momaday, Anne Moody, Larry Neal, Tim O'Brien, Charles Olson, Dan Paik, Rosa Parks, Sylvia Plath, Allen Polite, Dudley Randall, Ishmael Reed, Carolyn M. Rodgers, Muriel Rukeyser, Edward Sanders, Richard Schmorleitz, Anne Sexton, Gary Snyder, Valerie Solanas, Susan Sontag, Gloria Steinem, Hunter S. Thompson, Sally Tomlinson, Calvin Trillin, Eric Von Schmidt, Diane Wakoski, Alice Walker, Lew Welch, Eudora Welty, Malcolm X, & Al Young"
+                                }
+                            ],
+                            "u": {
+                                "_text": "Contributors that wouldn't fit in the author field"
+                            }
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "13460"
+                                },
+                                "name": {
+                                    "_text": "Ann Charters"
+                                },
+                                "role": {
+                                    "_text": "Editor"
+                                },
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "true"
+                                    },
+                                    "_cdata": " https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "true"
+                                    },
+                                    "_cdata": " https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/13460.Ann_Charters "
+                                },
+                                "average_rating": {
+                                    "_text": "3.81"
+                                },
+                                "ratings_count": {
+                                    "_text": "27708"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "1722"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "2003"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "331654"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.uSeFMHM5MbQJcOfuJMGx9A"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "97419"
+                        },
+                        "isbn": {
+                            "_text": "0330243152"
+                        },
+                        "isbn13": {
+                            "_text": "9780330243155"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "13"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.OLOTsGoxWCYSqE381lk-2Q"
+                        },
+                        "title": {
+                            "_text": "The New Journalism"
+                        },
+                        "title_without_series": {
+                            "_text": "The New Journalism"
+                        },
+                        "image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356442232l/97419._SX98_.jpg"
+                        },
+                        "small_image_url": {
+                            "_text": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356442232l/97419._SY75_.jpg"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/97419.The_New_Journalism"
+                        },
+                        "num_pages": {
+                            "_text": "430"
+                        },
+                        "format": {},
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Picador"
+                        },
+                        "publication_day": {
+                            "_text": "1"
+                        },
+                        "publication_year": {
+                            "_text": "1996"
+                        },
+                        "publication_month": {
+                            "_text": "2"
+                        },
+                        "average_rating": {
+                            "_text": "4.05"
+                        },
+                        "ratings_count": {
+                            "_text": "691"
+                        },
+                        "description": {
+                            "_text": "Tom Wolfe introduces a wide range of journalistic reportage by writers including Truman Capote, Terry Southern, George Plimpton, Norman Mailer and Hunter S. Thompson."
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "3083854"
+                                },
+                                "name": {
+                                    "_text": "Tom Wolfe"
+                                },
+                                "role": {
+                                    "_text": "Editor"
+                                },
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1368273666p5/3083854.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1368273666p2/3083854.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/3083854.Tom_Wolfe "
+                                },
+                                "average_rating": {
+                                    "_text": "3.87"
+                                },
+                                "ratings_count": {
+                                    "_text": "250291"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "12127"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "1996"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "802076"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.262YEOqODl6kEJLLQVb7gg"
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "117760"
+                        },
+                        "isbn": {
+                            "_text": "0140068694"
+                        },
+                        "isbn13": {
+                            "_text": "9780140068696"
+                        },
+                        "text_reviews_count": {
+                            "_attributes": {
+                                "type": "integer"
+                            },
+                            "_text": "1"
+                        },
+                        "uri": {
+                            "_text": "kca://book/amzn1.gr.book.v1.sZFEJtJ_4OWNZrBlCWZH3w"
+                        },
+                        "title": {
+                            "_text": "Granta 8: Dirty Realism"
+                        },
+                        "title_without_series": {
+                            "_text": "Granta 8: Dirty Realism"
+                        },
+                        "image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                        },
+                        "small_image_url": {
+                            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+                        },
+                        "large_image_url": {},
+                        "link": {
+                            "_text": "https://www.goodreads.com/book/show/117760.Granta_8"
+                        },
+                        "num_pages": {},
+                        "format": {
+                            "_text": "Hardcover"
+                        },
+                        "edition_information": {},
+                        "publisher": {
+                            "_text": "Granta Books (Uk)"
+                        },
+                        "publication_day": {
+                            "_text": "1"
+                        },
+                        "publication_year": {
+                            "_text": "1998"
+                        },
+                        "publication_month": {
+                            "_text": "11"
+                        },
+                        "average_rating": {
+                            "_text": "4.00"
+                        },
+                        "ratings_count": {
+                            "_text": "42"
+                        },
+                        "description": {
+                            "_text": "The issue of Granta that defined a new school of American writers: Richard Ford, Jayne Anne Phillips, Raymond Carver, Elizabeth Tallent, Tobias Wolff, Bobbie Ann Mason, Frederic Barthelme, Carolyn Forché and others."
+                        },
+                        "authors": {
+                            "author": {
+                                "id": {
+                                    "_text": "2606"
+                                },
+                                "name": {
+                                    "_text": "Bill Buford"
+                                },
+                                "role": {
+                                    "_text": "Editor"
+                                },
+                                "image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1299067990p5/2606.jpg "
+                                },
+                                "small_image_url": {
+                                    "_attributes": {
+                                        "nophoto": "false"
+                                    },
+                                    "_cdata": " https://images.gr-assets.com/authors/1299067990p2/2606.jpg "
+                                },
+                                "link": {
+                                    "_cdata": " https://www.goodreads.com/author/show/2606.Bill_Buford "
+                                },
+                                "average_rating": {
+                                    "_text": "3.95"
+                                },
+                                "ratings_count": {
+                                    "_text": "36534"
+                                },
+                                "text_reviews_count": {
+                                    "_text": "3267"
+                                }
+                            }
+                        },
+                        "published": {
+                            "_text": "1998"
+                        },
+                        "work": {
+                            "id": {
+                                "_text": "113366"
+                            },
+                            "uri": {
+                                "_text": "kca://work/amzn1.gr.work.v1.XXCyyzrANq43HtwDnoUPnQ"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

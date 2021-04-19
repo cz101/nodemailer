@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+
+ <!-- jQuery, Popper.js, Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script defer src="javascripts/popper.min.js" ></script>
+ <script defer src="javascripts/bootstrap.min.js"></script>
+ <script  defer src="javascripts/parallax.min.js"></script>  
+ <!-- <script src="../js/jquery-3.3.1.slim.min.js" ></script> -->  
+
+    <title>chaowow</title>
+
+
+    
+</head>
+
+<div class="container-fluid section1">
+  <div class="parallax1" data-parallax="scroll" data-image-src="img/bg1.jpg" data-z-index="1">
+      <div class="row s1-context"> 
+        <h5>Register</h5>
+          <form action="/Register" method="POST">
+            <div>
+              <label for="username">User Name</label>
+              <input type="text" id="uname" name="uname" required>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="pw" name="pw" required>
+            </div>
+            <button type="submit">Register</button>    
+            <button onclick="location.href ='/login'" >login</button>     
+          </form>
+      </div>
+  </div> 
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid footer-main">
+  
+    <div class="row">
+        <div class="col-sm-12 text-center">
+          <p class="footer-text"> &copy; Copyright 2021. All Rights Reserved & Designed by Chao.Z <span class="footer-name"></span> </p>
+        </div>
+    </div>
+  </div>  

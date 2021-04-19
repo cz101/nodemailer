@@ -1,4 +1,3 @@
-
 var mycanvaswidth, mycanvasheight;
 
 //mycanvaswidth = window.getComputedStyle(document.documentElement).getPropertyValue('--canvaswidth');
@@ -10,13 +9,13 @@ var mycanvaswidth, mycanvasheight;
 
 
 
-
 mycanvaswidth = 800,
 mycanvasheight = 500;
 
 
 function init() {
    
+
     container = document.getElementById( 'canvas' );
     //document.body.appendChild( container );
     

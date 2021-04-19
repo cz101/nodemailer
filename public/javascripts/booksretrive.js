@@ -54,14 +54,14 @@ function displayreviews(xml) {
 function checknyt () {
 
 
-    var  bookstringfic    =  "../nytbestfic.json" ; 
-    var  bookstringnofic  =  "../nytbestnofic.json" ; 
+    var  bookstringfic    =  "files/nytbestfic.json" ; 
+    var  bookstringnofic  =  "files/nytbestnofic.json" ; 
 
     var bf = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=S9hKHIMwAXB9fbmHNuOIcA6Hb6Appc4N";
     var bnf ="https://api.nytimes.com/svc/books/v3/lists/current/hardcover-nonfiction.json?api-key=S9hKHIMwAXB9fbmHNuOIcA6Hb6Appc4N";
    
     /* parsing the file */
-       fetch(bf)
+       fetch( bookstringfic)
              .then(response => { return response.json(); })
              .then(data => {   //console.log(data);
                               processfilefic( data);
@@ -69,7 +69,7 @@ function checknyt () {
              //.catch(err => { console.log ("There is error to prorcess the file");});
         
    
-       fetch(bnf)
+       fetch(bookstringnofic)
              .then(response => { return response.json(); })
              .then(data => {   //console.log(data);
                               processfile(data);
@@ -78,6 +78,9 @@ function checknyt () {
    
 }
 
+
+
+let info = ""
 function processfilefic(info) {
 
       var bookauthor  = "nobody" , bookrank = " ",bookweeks= "", bookimg = "" ; 
@@ -233,7 +236,7 @@ function goodsreadfetch(xml) {
 
 function fetchgoodreadxml(){
 
-      fetch("../gt.xml")
+      fetch("files/gt.xml")
 
         .then(res => res.text())
 
