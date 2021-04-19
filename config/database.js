@@ -7,20 +7,22 @@ require('dotenv').config();
  */
 
 //const conn = 'mongodb://127.0.0.1/my_database';
-const conn ='mongodb+srv://chaowow:jPvrKqnW0BQuTQ46@cluster0.jbj2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+//const conn ='mongodb+srv://chaowow:jPvrKqnW0BQuTQ46@cluster0.jbj2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
-/*
+
 const connection = mongoose.createConnection(process.env.DBCONNSTRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
-*/
 
+/*
 const connection = mongoose.createConnection(conn, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
+*/
+
 connection.on('error', console.error.bind(console, 'MongoDB connection error:'));
 connection.once('open',()=> console.log("connected to DB"))
 
