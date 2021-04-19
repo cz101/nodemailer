@@ -7,12 +7,12 @@ var convert = require('xml-js');
 const { contains } = require("jquery");
 xmlparser = require('express-xml-bodyparser')
 
-
+/*
 const { JSDOM } = require( "jsdom" );
 const { window } = new JSDOM( "" );
 const $ = require( "jquery" )( window );
 
-
+*/
 
 
 var parser = new xml2js.Parser();
