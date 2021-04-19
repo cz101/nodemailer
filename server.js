@@ -16,11 +16,7 @@ const expressLayout = require('express-ejs-layouts')
 const indexRouter = require('./routes/index')
 const sparetimeRouter = require('./routes/sparetimes')
 const workRouter = require('./routes/works')
-/*
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window );
-*/
+
 
 xmlparser = require('express-xml-bodyparser');
 
