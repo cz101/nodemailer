@@ -54,14 +54,14 @@ function displayreviews(xml) {
 function checknyt () {
 
 
-    var  bookstringfic    =  "files/nytbestfic.json" ; 
-    var  bookstringnofic  =  "files/nytbestnofic.json" ; 
+    //var  bookstringfic    =  "files/nytbestfic.json" ; 
+    //var  bookstringnofic  =  "files/nytbestnofic.json" ; 
 
     var bf = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=S9hKHIMwAXB9fbmHNuOIcA6Hb6Appc4N";
     var bnf ="https://api.nytimes.com/svc/books/v3/lists/current/hardcover-nonfiction.json?api-key=S9hKHIMwAXB9fbmHNuOIcA6Hb6Appc4N";
    
     /* parsing the file */
-       fetch( bookstringfic)
+       fetch( bf)
              .then(response => { return response.json(); })
              .then(data => {   //console.log(data);
                               processfilefic( data);
@@ -69,7 +69,7 @@ function checknyt () {
              //.catch(err => { console.log ("There is error to prorcess the file");});
         
    
-       fetch(bookstringnofic)
+       fetch(bnf)
              .then(response => { return response.json(); })
              .then(data => {   //console.log(data);
                               processfile(data);
