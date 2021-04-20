@@ -204,7 +204,8 @@ router.get('/login-success', isAuth, (req, res, next) => {
 });
 
 router.get('/login-failure', (req, res, next) => {
-   res.send('You entered the wrong password.');
+  // res.send('You entered the wrong password.');
+   res.render('loginfail.ejs', { layout: 'loginfail' })
 });
 
 
