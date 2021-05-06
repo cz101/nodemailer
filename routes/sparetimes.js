@@ -6,6 +6,9 @@ const xml2js = require('xml2js');
 var convert = require('xml-js');
 const { contains } = require("jquery");
 xmlparser = require('express-xml-bodyparser')
+const isAuth = require('./authMiddleware').isAuth;
+const isAdmin = require('./authMiddleware').isAdmin;
+
 
 /*
 const { JSDOM } = require( "jsdom" );
@@ -43,10 +46,8 @@ router.get('/booknylist', checkAuthentication, async (req, res) => {
 
 // interest pages
 
-  router.get('/interests', checkAuthentication, async (req, res) => {
+  router.get('/interests', isAdmin, async (req, res) => {
   
-    //res.send("here it is in sparetime/interest")
-
     res.render("sparetimes/interests")
 
   })

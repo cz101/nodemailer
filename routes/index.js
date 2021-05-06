@@ -111,7 +111,7 @@ router.post('/register', (req, res, next) => {
        username: req.body.uname,
        hash: hash,
        salt: salt,
-       admin: true
+       admin: false
    });
 
    newUser.save()
@@ -140,6 +140,12 @@ router.get('/', isAuth, (req, res, next) => {
    //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
 });
 
+
+router.get('/notauth', isAuth, (req, res, next) => {
+
+  res.render('notauth',{ layout: 'notauth' });
+   //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
+});
 // When you visit http://localhost:3000/login, you will see "Login Page"
 router.get('/login', (req, res, next) => {
   /*
