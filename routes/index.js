@@ -137,47 +137,29 @@ router.get ('/home', (req,res, next)=>{
 router.get('/', isAuth, (req, res, next) => {
 
   res.render('welcome',{ layout: 'welcome' });
-   //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
+ 
 });
 
 
 router.get('/notauth', isAuth, (req, res, next) => {
 
   res.render('notauth',{ layout: 'notauth' });
-   //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
-});
-// When you visit http://localhost:3000/login, you will see "Login Page"
-router.get('/login', (req, res, next) => {
-  /*
-   const form = '<h1>Login Page</h1><form method="POST" action="/login">\
-   Enter Username:<br><input type="text" name="uname">\
-   <br>Enter Password:<br><input type="password" name="pw">\
-   <br><br><input type="submit" value="Submit"></form>';
 
-*/
+});
+
+router.get('/login', (req, res, next) => {
+
    res.render('login.ejs', { layout: 'login' })
- //  res.send(form);
+ 
 
 });
 
 router.get('/loginauto', (req, res, next) => {
 
   res.render('loginauto',{ layout: 'loginauto' });
-   //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
-});
-// When you visit http://localhost:3000/register, you will see "Register Page"
-/*
-router.get('/register', (req, res, next) => {
 
-   const form = '<h1>Register Page</h1><form method="post" action="register">\
-                   Enter Username:<br><input type="text" name="uname">\
-                   <br>Enter Password:<br><input type="password" name="pw">\
-                   <br><br><input type="submit" value="Submit"></form>';
-
-   res.send(form);
-   
 });
-*/
+
 router.get('/register', (req,res,next) =>{
 
   res.render('register.ejs', { layout: 'register' })
@@ -185,12 +167,6 @@ router.get('/register', (req,res,next) =>{
 })
 
 
-/**
-* Lookup how to authenticate users on routes with Local Strategy
-* Google Search: "How to use Express Passport Local Strategy"
-* 
-* Also, look up what behaviour express session has without a maxage set
-*/
 router.get('/protected-route',isAuth,  (req, res, next) => {
     res.send('You made it to the route.');
    //res()
@@ -211,7 +187,6 @@ router.get('/login-success', isAuth, (req, res, next) => {
   
   res.render('index.ejs')
 
-   //res.send('<p>You successfully logged in. --> <a href="/protected-route">Go to protected route</a></p>');
 });
 
 router.get('/login-failure', (req, res, next) => {
