@@ -160,6 +160,11 @@ router.get('/login', (req, res, next) => {
 
 });
 
+router.get('/loginauto', (req, res, next) => {
+
+  res.render('loginauto',{ layout: 'loginauto' });
+   //res.send('<h1>Home</h1><p>Please <a href="/register">register</a></p>');
+});
 // When you visit http://localhost:3000/register, you will see "Register Page"
 /*
 router.get('/register', (req, res, next) => {
