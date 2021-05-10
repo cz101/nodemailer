@@ -58,7 +58,7 @@ router.post("/contact/send", (req, res, next) => {
  
 const newContact = new Contact({
   firstName: req.body.FirstName,
-  lastNamne :req.body.LastName,
+  lastName :req.body.LastName,
   phone:req.body.Phone,
   email:req.body.email,
   message: req.body.form_message,

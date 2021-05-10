@@ -30,13 +30,14 @@ connection.once('open',()=> console.log("connected to DB"))
 const UserSchema = new mongoose.Schema({
     username: String,
     hash: String,
-    salt: String
+    salt: String,
+    admin:Boolean
 });
 
 
 const contactSchema = new mongoose.Schema({ 
     firstName: String,
-    lastNamne: String,
+    lastName: String,
     phone: String,
     email:String,
     message:String

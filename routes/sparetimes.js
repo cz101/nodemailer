@@ -70,6 +70,13 @@ router.get('/booknylist', checkAuthentication, async (req, res) => {
 
   })
 
+//social
+
+router.get('/socialzone',checkAuthentication, async (req, res) => {
+  res.render("sparetimes/socialzone")
+})
+
+
 
 
   function goodsreadfetch(xml) {
