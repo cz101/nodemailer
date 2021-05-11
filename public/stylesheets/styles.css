@@ -268,6 +268,14 @@
   font-style: normal;
   color: #303030; }
 
+  .nytitle {
+    font-family: "Hind", Sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    color: #303030; }
+
 .intro-sub {
   color: #474747;
   font-family: "Muli", Sans-serif;
