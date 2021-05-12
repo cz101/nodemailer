@@ -82,7 +82,7 @@ function checknyt () {
 
 function displayerr(){ 
 
-      var erromessage = " connection failed to the server to retrive the data ";
+      var erromessage = " connection failed to retrive the data from the server ";
       document.getElementById("error").innerHTML = erromessage;
 
 
