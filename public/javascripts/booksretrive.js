@@ -66,7 +66,8 @@ function checknyt () {
              .then(data => {   //console.log(data);
                               processfilefic( data);
        })
-             //.catch(err => { console.log ("There is error to prorcess the file");});
+             .catch(err => {  displayerr(); 
+                              console.log ("There is error to get the fiction data");});
         
    
        fetch(bnf)
@@ -74,10 +75,18 @@ function checknyt () {
              .then(data => {   //console.log(data);
                               processfile(data);
        })
-             //.catch(err => { console.log ("There is error to prorcess the file");});
+            // .catch(err => {console.log ("There is error to get the nonfiction data");});
    
 }
 
+
+function displayerr(){ 
+
+      var erromessage = " connection failed to the server to retrive the data ";
+      document.getElementById("error").innerHTML = erromessage;
+
+
+}
 
 
 let info = ""
