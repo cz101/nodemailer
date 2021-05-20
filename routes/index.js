@@ -95,6 +95,11 @@ res.redirect('/home');
 
 });
 
+/**
+* -------------- login and register ----------------
+* registrar form 
+*/
+
 router.post('/login', passport.authenticate('local', { 
         failureRedirect: '/login-failure', 
         successRedirect: '/',
@@ -193,27 +198,6 @@ router.get('/login-failure', (req, res, next) => {
   // res.send('You entered the wrong password.');
    res.render('loginfail.ejs', { layout: 'loginfail' })
 });
-
-
-
-
-
-
-function aisAuth(req, res, next){
-   if (req.isAuthenticated()) {
-       next();
-   } else {
-       res.status(401).json({ msg: 'You are not authorized to view this resource' });
-   }
-}
-
-function aisAdmin (req, res, next){
-   if (req.isAuthenticated() && req.user.admin) {
-       next();
-   } else {
-       res.status(401).json({ msg: 'You are not authorized to view this resource because you are not an admin.' });
-   }
-}
 
 
 

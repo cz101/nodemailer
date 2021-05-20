@@ -22,11 +22,11 @@ var parser = new xml2js.Parser();
 //const Book = require ('../models/book')
 
 // book pages
-router.get('/books',checkAuthentication, async (req, res) => {
+router.get('/books',isAuth, async (req, res) => {
    res.render("sparetimes/books")
 })
 
-router.get('/bookauthor', checkAuthentication, async (req, res) => {
+router.get('/bookauthor', isAuth, async (req, res) => {
   
     //res.send("here it is in sparetime")
 
@@ -34,7 +34,7 @@ router.get('/bookauthor', checkAuthentication, async (req, res) => {
 
   })
 
-router.get('/booknylist', checkAuthentication, async (req, res) => {
+router.get('/booknylist', isAuth, async (req, res) => {
   
     //res.send("here it is in sparetime")
 
@@ -55,14 +55,14 @@ router.get('/booknylist', checkAuthentication, async (req, res) => {
 // sports 
 
 
-  router.get('/sports', checkAuthentication, async (req, res) => {
+  router.get('/sports', isAuth, async (req, res) => {
 
    //res.render("sparetimes/sports")
    res.render("sparetimes/sports")
 
   })
 
-  router.get('/teamsports', checkAuthentication, async (req, res) => {
+  router.get('/teamsports', isAuth, async (req, res) => {
   
     //res.send("here it is in sparetime/sports")
 
@@ -72,7 +72,7 @@ router.get('/booknylist', checkAuthentication, async (req, res) => {
 
 //social
 
-router.get('/socialzone',checkAuthentication, async (req, res) => {
+router.get('/socialzone',isAuth, isAdmin, async (req, res) => {
   res.render("sparetimes/socialzone")
 })
 
