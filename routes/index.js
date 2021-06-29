@@ -58,7 +58,7 @@ router.post("/contact/send", (req, res, next) => {
  
 const newContact = new Contact({
   firstName: req.body.FirstName,
-  lastName :req.body.LastName,
+  lastNamne :req.body.LastName,
   phone:req.body.Phone,
   email:req.body.email,
   message: req.body.form_message,
@@ -112,11 +112,11 @@ router.post('/register', (req, res, next) => {
    const salt = saltHash.salt;
    const hash = saltHash.hash;
 
-   const newUser = new User({
+   var newUser = new User({
        username: req.body.uname,
        hash: hash,
        salt: salt,
-       admin: false
+       admin: true
    });
 
    newUser.save()
@@ -198,6 +198,22 @@ router.get('/login-failure', (req, res, next) => {
   // res.send('You entered the wrong password.');
    res.render('loginfail.ejs', { layout: 'loginfail' })
 });
+
+function aisAuth(req, res, next){
+   if (req.isAuthenticated()) {
+       next();
+   } else {
+       res.status(401).json({ msg: 'You are not authorized to view this resource' });
+   }
+}
+
+function aisAdmin (req, res, next){
+   if (req.isAuthenticated() && req.user.admin) {
+       next();
+   } else {
+       res.status(401).json({ msg: 'You are not authorized to view this resource because you are not an admin.' });
+   }
+}
 
 
 
