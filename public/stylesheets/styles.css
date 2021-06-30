@@ -746,3 +746,8 @@ a.effect-shine:hover {
     margin-top:  5px;
     margin-left: 5px;
   }
+
+  textarea {
+    width: 700px;
+    height: 250px;
+  }
