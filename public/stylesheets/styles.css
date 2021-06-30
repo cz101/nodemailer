@@ -748,6 +748,15 @@ a.effect-shine:hover {
   }
 
   textarea {
-    width: 700px;
+    width: 552px;
     height: 250px;
+  }
+
+  .workresume{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
   }

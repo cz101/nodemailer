@@ -199,6 +199,12 @@ router.get('/login-failure', (req, res, next) => {
    res.render('loginfail.ejs', { layout: 'loginfail' })
 });
 
+
+router.get('/underconstruction', (req, res, next) => {
+  
+  res.render('bpage.ejs')
+
+});
 function aisAuth(req, res, next){
    if (req.isAuthenticated()) {
        next();
