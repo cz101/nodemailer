@@ -6,8 +6,8 @@ require('dotenv').config();
  * -------------- DATABASE ----------------
  */
 
-const conn = 'mongodb://127.0.0.1/my_database';
-//const conn ='mongodb+srv://chaowow:jPvrKqnW0BQuTQ46@cluster0.jbj2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+//const conn = 'mongodb://127.0.0.1/my_database';
+const conn ='mongodb+srv://chaowow:jPvrKqnW0BQuTQ46@cluster0.jbj2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 /*
 const connection = mongoose.createConnection(process.env.DBCONNSTRING, {
     useNewUrlParser: true,
