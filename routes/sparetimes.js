@@ -22,7 +22,7 @@ var parser = new xml2js.Parser();
 //const Book = require ('../models/book')
 
 // book pages
-router.get('/books',isAuth, async (req, res) => {
+router.get('/books', async (req, res) => {
    res.render("sparetimes/books")
 })
 
@@ -55,7 +55,7 @@ router.get('/booknylist', isAuth, async (req, res) => {
 // sports 
 
 
-  router.get('/sports', isAuth, async (req, res) => {
+  router.get('/sports',  async (req, res) => {
 
    //res.render("sparetimes/sports")
    res.render("sparetimes/sports")

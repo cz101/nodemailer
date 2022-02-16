@@ -102,7 +102,7 @@ res.redirect('/home');
 
 router.post('/login', passport.authenticate('local', { 
         failureRedirect: '/login-failure', 
-        successRedirect: '/',
+        successRedirect: '/home',
         failureFlash: true }));
 
 
@@ -139,7 +139,57 @@ router.get ('/home', (req,res, next)=>{
 
 } )
 
-router.get('/', isAuth, (req, res, next) => {
+/**
+* ----------- GET Guest ROUTES ------------
+*/
+
+router.get ('/guest/guesthome' ,(req,res, next)=>{
+
+  res.render('home', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+
+router.get ('/guest/future' ,(req,res, next)=>{
+
+  res.render('works/future', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+router.get ('/guest/work' ,(req,res, next)=>{
+
+  res.render('guest/work', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+router.get ('/guest/contact' ,(req,res, next)=>{
+
+  res.render('contact/contact', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+
+router.get ('/guest/sports' ,(req,res, next)=>{
+
+  res.render('sparetimes/sports', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+router.get ('/guest/books' ,(req,res, next)=>{
+
+  res.render('sparetimes/books', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+
+
+router.get('/', (req, res, next) => {
 
   res.render('welcome',{ layout: 'welcome' });
  

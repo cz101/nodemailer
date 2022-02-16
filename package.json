@@ -33,6 +33,8 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "three": "^0.126.1",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
     "xml-js": "^1.6.11",
     "xml2js": "^0.4.23"
   },
@@ -41,6 +43,6 @@
   },
   "devDependencies": {
     "jsdom": "^16.5.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.15"
   }
 }

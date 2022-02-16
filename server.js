@@ -26,7 +26,7 @@ var app = express()
 
 app.set('view engine', 'ejs')
 app.set('views', __dirname +'/views')
-app.set('layout', 'layouts/layout')
+app.set('layout', 'layouts/layout', 'layouts/guestlayout')
 //app.set('layout welcome',false)
 
 
@@ -64,6 +64,7 @@ app.use(expressLayout)
 // app.use(xmlparser());
 
 app.use( express.static(__dirname + '/public'));
+app.use('/guest', express.static(__dirname + '/public'));
 app.use('/sparetimes', express.static(__dirname + '/public'));
 app.use('/works', express.static(__dirname + '/public'));
 app.use('/contact', express.static(__dirname + '/public'));
