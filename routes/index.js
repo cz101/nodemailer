@@ -91,7 +91,7 @@ transporter.sendMail(mailOptions, function(error, info){
       }
 });
 
-res.redirect('/home');
+res.redirect('/');
 
 });
 
