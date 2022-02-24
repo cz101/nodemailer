@@ -182,7 +182,14 @@ router.get ('/guest/sports' ,(req,res, next)=>{
 
 router.get ('/guest/books' ,(req,res, next)=>{
 
-  res.render('sparetimes/books', {
+  res.render('guest/books', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+router.get ('/guest/bookauthor' ,(req,res, next)=>{
+
+  res.render('guest/bookauthor', {
     layout : 'layouts/guestlayout'}  )
 
 } )
