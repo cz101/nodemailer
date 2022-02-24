@@ -195,6 +195,14 @@ router.get ('/guest/bookauthor' ,(req,res, next)=>{
 } )
 
 
+router.get ('/guest/booknylist' ,(req,res, next)=>{
+
+  res.render('guest/booknylist', {
+    layout : 'layouts/guestlayout'}  )
+
+} )
+
+
 
 router.get('/', (req, res, next) => {
 
