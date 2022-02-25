@@ -27,7 +27,10 @@ also sending the contact email and save contact infomation in DB
 
 /*  send the emails based on the contact information */
 const transporter = nodemailer.createTransport({
-  service: 'hotmail',
+  //service: 'hotmail',
+
+    host: 'smtp-mail.outlook.com',
+    port: 587,
   auth: {
 
       user: process.env.EMAIL,
@@ -38,6 +41,7 @@ const transporter = nodemailer.createTransport({
 
 transporter.verify(function (error, success) {
   if (error) {
+    console.log("connected to the server")
     console.log(error);
   } else {
     console.log("Live/Outlook Server is ready ");
@@ -91,7 +95,7 @@ transporter.sendMail(mailOptions, function(error, info){
       }
 });
 
-res.redirect('/');
+  res.redirect('/');
 
 });
 
