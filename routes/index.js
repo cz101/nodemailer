@@ -143,6 +143,16 @@ router.get ('/home', (req,res, next)=>{
 
 } )
 
+
+
+
+router.get ('/deutschhome' ,(req,res, next)=>{
+
+  res.render('deutschhome', {
+    layout : 'layouts/other'}  )
+
+} )
+
 /**
 * ----------- GET Guest ROUTES ------------
 */
