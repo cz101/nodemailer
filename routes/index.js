@@ -136,6 +136,12 @@ router.post('/register', (req, res, next) => {
 * -------------- GET ROUTES ----------------
 */
 
+router.get ('/index.html', (req,res, next)=>{
+
+  res.render('welcome',{ layout: 'welcome' });
+
+} )
+
 router.get ('/home', (req,res, next)=>{
 
   res.render('home.ejs', {
