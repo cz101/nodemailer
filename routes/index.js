@@ -31,10 +31,10 @@ const transporter = nodemailer.createTransport({
 
     host: 'smtp-mail.outlook.com',
     port: 587,
-  auth: {
-
-      user: process.env.EMAIL,
-      pass: process.env.PASS,
+    secure: false,
+    auth: {
+      user: "czweb99@outlook.com",
+      pass: "pelzzGno3",
   }
 });
 
