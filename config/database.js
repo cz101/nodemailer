@@ -6,18 +6,11 @@ require('dotenv').config();
  * -------------- DATABASE ----------------
  */
 
-const conn ='mongodb+srv://chaowow:Mf1oa8KYlQvaonX0@cluster0.jbj2i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-/*
 const connection = mongoose.createConnection(process.env.DBCONNSTRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
-*/
-const connection = mongoose.createConnection(conn, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
 
 connection.on('error', console.error.bind(console, 'MongoDB connection error:'));
 connection.once('open',()=> console.log("connected to DB"))

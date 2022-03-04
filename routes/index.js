@@ -1,7 +1,5 @@
 
 const nodemailer = require("nodemailer");
-const multiparty = require("multiparty");
-const nodeoutlook = require("nodejs-nodemailer-outlook")
 
 
 
@@ -16,8 +14,6 @@ const isAdmin = require('./authMiddleware').isAdmin;
 const Contact= connection.models.Contact;
 
 
-
-
 /**
 * -------------- GET CONTACT ROUTES ----------------
 also sending the contact email and save contact infomation in DB
@@ -27,21 +23,20 @@ also sending the contact email and save contact infomation in DB
 
 /*  send the emails based on the contact information */
 const transporter = nodemailer.createTransport({
-  //service: 'hotmail',
 
     host: 'smtp-mail.outlook.com',
     port: 587,
     secure: false,
     auth: {
-      user: "czweb99@outlook.com",
-      pass: "pelzzGno3",
+      user: process.env.EMAIL,
+      pass: process.env.PASS,
   }
 });
 
 
 transporter.verify(function (error, success) {
   if (error) {
-    console.log("connected to the server")
+    console.log("connecting to the Mail server")
     console.log(error);
   } else {
     console.log("Live/Outlook Server is ready ");
@@ -139,157 +134,16 @@ router.post('/register', (req, res, next) => {
 router.get ('/index.html', (req,res, next)=>{
 
   res.render('welcome',{ layout: 'welcome' });
-
 } )
 
 router.get ('/home', (req,res, next)=>{
-
+  
   res.render('home.ejs', {
     name : req.body.uname}  )
-
-} )
-
-
-
-
-router.get ('/deutschhome' ,(req,res, next)=>{
-
-  res.render('deutschhome', {
-    layout : 'layouts/other'}  )
-
-} )
-
-/**
-* ----------- GET Guest ROUTES ------------
-*/
-
-router.get ('/guest/guesthome' ,(req,res, next)=>{
-
-  res.render('home', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-
-router.get ('/guest/future' ,(req,res, next)=>{
-
-  res.render('works/future', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-router.get ('/guest/work' ,(req,res, next)=>{
-
-  res.render('guest/work', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-router.get ('/guest/contact' ,(req,res, next)=>{
-
-  res.render('contact/contact', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-
-router.get ('/guest/sports' ,(req,res, next)=>{
-
-  res.render('sparetimes/sports', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-router.get ('/guest/books' ,(req,res, next)=>{
-
-  res.render('guest/books', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-router.get ('/guest/bookauthor' ,(req,res, next)=>{
-
-  res.render('guest/bookauthor', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-
-router.get ('/guest/booknylist' ,(req,res, next)=>{
-
-  res.render('guest/booknylist', {
-    layout : 'layouts/guestlayout'}  )
-
-} )
-
-
-
-router.get('/', (req, res, next) => {
-
-  res.render('welcome',{ layout: 'welcome' });
- 
-});
-
-
-router.get('/notauth', isAuth, (req, res, next) => {
-
-  res.render('notauth',{ layout: 'notauth' });
-
-});
-
-router.get('/login', (req, res, next) => {
-
-   res.render('login.ejs', { layout: 'login' })
- 
-
-});
-
-router.get('/loginauto', (req, res, next) => {
-
-  res.render('loginauto',{ layout: 'loginauto' });
-
-});
-
-router.get('/register', (req,res,next) =>{
-
-  res.render('register.ejs', { layout: 'register' })
-
 })
 
 
-router.get('/protected-route',isAuth,  (req, res, next) => {
-    res.send('You made it to the route.');
-   //res()
-});
 
-router.get('/admin-route', isAdmin, (req, res, next) => {
-   res.send('You made it to the admin route.');
-});
-
-// Visiting this route logs the user out
-router.get('/logout', (req, res, next) => {
-   req.logout();
-   console.log("user is login out" )
-   res.redirect('/login');
-});
-
-router.get('/login-success', isAuth, (req, res, next) => {
-  
-  res.render('index.ejs')
-
-});
-
-router.get('/login-failure', (req, res, next) => {
-  // res.send('You entered the wrong password.');
-   res.render('loginfail.ejs', { layout: 'loginfail' })
-});
-
-
-router.get('/underconstruction', (req, res, next) => {
-  
-  res.render('bpage.ejs')
-
-});
 function aisAuth(req, res, next){
    if (req.isAuthenticated()) {
        next();

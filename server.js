@@ -14,8 +14,6 @@ require('./config/passport');
 const expressLayout = require('express-ejs-layouts')
 
 const indexRouter = require('./routes/index')
-const sparetimeRouter = require('./routes/sparetimes')
-const workRouter = require('./routes/works')
 
 
 xmlparser = require('express-xml-bodyparser');
@@ -64,10 +62,7 @@ app.use(expressLayout)
 // app.use(xmlparser());
 
 app.use( express.static(__dirname + '/public'));
-app.use('/guest', express.static(__dirname + '/public'));
-app.use('/sparetimes', express.static(__dirname + '/public'));
-app.use('/works', express.static(__dirname + '/public'));
-app.use('/contact', express.static(__dirname + '/public'));
+
 
 
 
@@ -77,8 +72,7 @@ app.use('/contact', express.static(__dirname + '/public'));
 
 
 app.use('/', indexRouter)
-app.use('/sparetimes', sparetimeRouter)
-app.use('/works', workRouter)
+
 
 
 
